@@ -1,26 +1,9 @@
 {
-  "swagger": "2.0",
-  "info": {
-    "version": "1.0.0",
-    "title": "Test API",
-    "description": "<h1>Injected Title</h1><script>alert('XSS')</script>"
-  },
-  "host": "example.com",
-  "basePath": "/api",
-  "schemes": [
-    "https"
-  ],
-  "paths": {
-    "/test": {
-      "get": {
-        "summary": "<b>HTML Summary</b>",
-        "description": "<img src=x onerror=alert('XSS')>",
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
+    "url": "https://raw.githubusercontent.com/ChosenX-byte/Swagger/refs/heads/main/login.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/ChosenX-byte/Swagger/refs/heads/main/login.yaml",
+            "name": "Ch0sen0ne"
         }
-      }
-    }
-  }
+    ]
 }
